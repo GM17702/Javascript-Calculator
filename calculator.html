@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styling.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM's Scientific Calculator</title>
+    
+</head>
+<body>
+    <br><br>
+    <div class="calculator">
+            <br><br><br>
+            <div>
+                <input type="text" id="display"class="textfield" disabled>
+                <button class="scientific" id="clear" onclick="Clear()"> AC </button>                
+            </div>
+            <br>
+            <div class="func">
+
+                <button class="scientific" id="factorial" onclick="DisplayButtonFactorial()"> ! </button>
+                <button class="scientific" id="permutation" onclick="DisplayButtonPermutation()"> nPr </button>
+                <button class="scientific" id="combination" onclick="DisplayButtonCombination()"> nCr </button>
+                <button class="scientific" id="mod" onclick="DisplayButtonMod()"> % </button>
+                
+
+            </div>
+            <div class="div1">
+                <button class="number" id="num1" onclick="DisplayButton1()"> 1 </button>
+                <button class="number" id="num2" onclick="DisplayButton2()"> 2 </button>
+                <button class="number" id="num3" onclick="DisplayButton3()"> 3 </button>
+                <button class="symbol" id="divide" onclick="DisplayButtonDivide()"> ÷ </button>
+            </div>
+            <div class="div2" >
+                <button class="number" id="num4" onclick="DisplayButton4()"> 4 </button>
+                <button class="number" id="num5" onclick="DisplayButton5()"> 5 </button>
+                <button class="number" id="num6" onclick="DisplayButton6()"> 6 </button>
+                <button class="symbol" id="multiply" onclick="DisplayButtonMultiply()"> x </button>
+            </div >
+            <div class="div3" >
+                <button class="number" id="num7" onclick="DisplayButton7()"> 7 </button>
+                <button class="number" id="num8" onclick="DisplayButton8()"> 8 </button>
+                <button class="number" id="num9" onclick="DisplayButton9()"> 9 </button>
+                <button class="symbol" id="subtract" onclick="DisplayButtonSubtract()"> − </button>
+                
+            </div>
+            <div class="div4" >
+                <button class="sign" id="point" onclick="DisplayButtonPoint()"> . </button>
+                <button class="number" id="num0" onclick="DisplayButton0()"> 0 </button>
+                <button class="symbol" id="equals" onclick="Equals()"> = </button>
+                <button class="symbol" id="add" onclick="DisplayButtonAdd()"> + </button>
+            </div>
+            <br><br>
+
+    </div>
+    <br>
+    
+    <script src= "logic.js"></script>
+</body>
+</html>

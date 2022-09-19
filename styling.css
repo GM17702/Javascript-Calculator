@@ -1,0 +1,120 @@
+ .number{
+    background: rgba(235, 229, 229, 0); 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 50px 58px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold ;
+    margin-bottom: 10px;
+  }
+
+  .zoom
+  {
+      zoom: 75%;
+  }
+
+  .number:hover{
+
+    background: rgba(235, 229, 229, 0.384);
+    transition: 0.5s;
+
+  }
+
+  .sign:hover{
+
+    background: rgba(235, 229, 229, 0.384);
+    transition: 0.5s;
+
+  }
+
+  .calculator{
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(100px);
+    max-width: 620px;
+    max-height: 1900px;
+    align-items: center;
+    text-align: center;
+    padding: bottom;
+    margin:auto;
+  }
+
+  .symbol:hover{
+
+    background: rgba(235, 229, 229, 0.384);
+    transition: 0.5s;
+
+  }
+
+  .scientific:hover{
+
+    background: rgba(235, 229, 229, 0.384);
+    transition: 0.5s;
+
+  }
+  html{
+
+    background-image: url("background.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sign{
+    background: rgba(235, 229, 229, 0);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 50px 59px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold ;
+    margin-bottom: 10px;
+  }
+
+  .symbol{
+    background: rgba(235, 229, 229, 0);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 50px 58px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold ;
+    margin-bottom: 10px;
+  }
+
+  .scientific{
+    background: rgba(235, 229, 229, 0);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold ;
+    margin-bottom: 10px;
+
+  }
+
+  .textfield{
+
+    background: rgba(235, 229, 229, 0);
+    border: none;
+    padding: 35px 95px;
+    width: 210px;
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
